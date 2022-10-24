@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkalami&display=swap');
+@font-face {
+    font-family: 'YUniverse-B';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_yuniverse@1.0/YUniverse-B.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+.text01{
+  font-family: 'Alkalami', serif;
+  text-align: center;
+  text-decoration: none;
+  font-size: 75px;
+  color: black;
+  margin-top: 300px;
+  margin-bottom: 0;
+  width: 650px;
+  height: 100px;
+}
+.subtitle{
+  font-family: 'YUniverse-B', sans-serif;
+  text-align: right;
+  margin: 0;
+  font-size: 20px;
+}
+.pic{
+  text-align: center;
+  margin-top: 125px;
+}
+body{
+  margin: 0;
+  padding:0;
+}
+.cotainer {
+  background-image: none;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center; content: ;
+}
+.cotainer:before{
+  position: absolute;
+  width: 100%
+}
+form.box {
+  width: 650px;
+  position: absolute;
+  top: 50%;
+  left:50%;
+  transform: translate(-50%,-50%);
+  color: #black;
+  text-align: center;
+}
+form.box h1{
+  font-weight: normal;
+}
+form.box input{
+  border: none;
+}
+form.box input[type=text]{
+  background-color: white;
+  width: 395px;
+  padding:10px;
+  border-radius: 25px 0 0 25px;
+  outline: 1px solid;
+  outline-color: gray;
+}
+form.box input[type=submit]{
+  width: 90px;
+  background-color: lightgray;
+  padding: 10px;
+  border-radius: 0 25px 25px 0;
+  color: black;
+  margin-left: -6px;
+  outline: 1px solid;
+  outline-color: gray;
+}
+/*{
+  box-sizing: border-box;
+}
+ul{
+  list-style-type: none;
+}
+input, button{
+  padding: 5px 10px;
+}
+#list{
+  border: 1px solid #ccc;
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+#list > li{
+  flex-basis: 48%;
+  margin-bottom: 20px;
+}
+#list > li > img{
+  width: 80%;
+}
